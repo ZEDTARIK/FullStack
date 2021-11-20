@@ -1,0 +1,46 @@
+USE [Db_AspWithVueJS]
+GO
+
+/****** Object:  Table [dbo].[Department]    Script Date: 20/11/2021 16:25:55 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[Department](
+	[DepartmentId] [smallint] IDENTITY(1,1) NOT NULL,
+	[DepartmentName] [varchar](20) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+/****** Object:  Table [dbo].[Employee]    Script Date: 20/11/2021 16:26:22 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[Employee](
+	[EmployeeId] [smallint] IDENTITY(1,1) NOT NULL,
+	[EmployeeName] [varchar](20) NULL,
+	[Departement] [varchar](20) NULL,
+	[DateOgJoining] [datetime] NULL,
+	[PhotoFileName] [nvarchar](100) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
