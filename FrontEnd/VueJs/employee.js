@@ -1,0 +1,1 @@
+const employee={template:`<h1>this is component Employee</h1>`}

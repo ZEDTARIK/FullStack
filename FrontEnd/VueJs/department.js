@@ -1,0 +1,1 @@
+const department={template:`<h1>this is component Department</h1>`}

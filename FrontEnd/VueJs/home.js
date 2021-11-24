@@ -1,0 +1,1 @@
+const home={template:`<h1>this is component Home</h1>`}
